@@ -1,0 +1,6 @@
+sozluk = {"cringe":"utandırıcı","lol":"komik bir şeye verilen cevap","rofl":"bir şakaya karşılık cevap","shees":"onaylamamak","creepy":"korkunç","aggro":"agresifleşmek/sinirlenmek","irl":"gerçek hayatta","gg":"iyi oyundu","ez":"kolaydı"}
+x = input("hangi kelimeyi öğrenmek istiyorsunuz:")
+if x in sozluk.keys():
+    print(sozluk[x])
+else:
+    print("malesef sözlükte bu kelime bulunamadı")
